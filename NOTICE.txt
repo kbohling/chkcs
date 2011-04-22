@@ -4,3 +4,4 @@ Copyright 2011 Kirby C. Bohling
 This product includes software developed by
 Kirby C. Bohling
 
+Clarkware Consulting Inc. (JDepend)
