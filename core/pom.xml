@@ -2,10 +2,13 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.blogspot.codinghardknocks</groupId>
-  <artifactId>cs-core</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <parent>
+    <groupId>com.blogspot.codinghardknocks</groupId>
+    <artifactId>parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <relativepath>../parent</relativepath>
+  </parent>
+  <artifactId>core</artifactId>
 
   <description>
   An exploratory library used used to implement core CS theory.  It isn't intended to be the worlds fastest
