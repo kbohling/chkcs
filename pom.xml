@@ -7,8 +7,14 @@
   <packaging>pom</packaging>
   <name>project</name>
 
+  <description>
+  A project used to collect and assemble core data structures and useful techniques.
+  </description>
+  <inceptionYear>2011</inceptionYear>
+
   <modules>
     <module>parent</module>
     <module>core</module>
   </modules>
+
 </project>
