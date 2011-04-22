@@ -15,16 +15,12 @@
   code, but hopefully pretty approachable for learning core CS algorithms and theory.
   </description>
 
-  <properties>
-    <junit.version>4.8.2</junit.version>
-  </properties>
-
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.8.2</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
+
 </project>
