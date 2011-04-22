@@ -1,0 +1,6 @@
+Coding Hard Knocks Core CS Library
+Copyright 2011 Kirby C. Bohling
+
+This product includes software developed by
+Kirby C. Bohling
+
