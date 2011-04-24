@@ -1,0 +1,3 @@
+MANIFEST.txt -- This file, which describes where the other data files came from.
+
+Lexicon.txt -- Word list from http://www.pathcom.com/~vadco/Lexicon.txt
