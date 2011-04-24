@@ -1,0 +1,25 @@
+This is a relatively flexible implementation of a Trie, but it not a particularly efficient
+implementation of a Trie.
+
+The current implementation converts all primitive times into their Object equivalent.  Which is
+a horrible idea from a performance perspective.  Once I find a suitable template engine to generate
+the primitive type, this problem can be eliminated.
+
+It will likely require adding a dependency on http://trove.starlight-systems.com/overview or 
+re-implementing primitive hash data structures.  As of right now, I am attempting to keep all of the
+code self-contained. 
+
+Further investigation into the following data structures and algorithms to implement complementing
+approaches for the types of problems that Tries solve:
+
+Caroline Word Graph: http://www.pathcom.com/~vadco/cwg.html
+Directed Acyclic Word Graph: http://www.pathcom.com/~vadco/dawg.html
+Bitwise Tries: http://www.nedprod.com/programs/portable/nedtries/
+BurstSort: http://en.wikipedia.org/wiki/Burstsort 
+           http://goanna.cs.rmit.edu.au/~jz/fulltext/alenex03.pdf (research/alenex03.pdf)
+BurstTries: http://goanna.cs.rmit.edu.au/~jz/fulltext/acmtois02.pdf (research/acmtois02.pdf)
+BurstSort4J: http://code.google.com/p/burstsort4j/
+
+
+
+
