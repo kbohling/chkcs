@@ -29,4 +29,15 @@ public class BSTNode<K extends Comparable<K>> extends AbstractBSTNode<K, BSTNode
         super(key);
     }
 
+    @Override
+    public String toString() {
+
+        BSTNode<K> left = getLeft();
+        BSTNode<K> right = getRight();
+        return "BSTNode [getKey()=" + getKey()
+                + ", getLeft()=" + ((left != null) ? left.getKey() : null)
+                + ", getRight()=" + ((right != null) ? right.getKey() : null) +  "]";
+    }
+
+
 }
